@@ -1,0 +1,6 @@
+[submodule "ams-backend"]
+	path = ams-backend
+	url = https://github.com/archismantripathi/ams-backend.git
+[submodule "ams-angular-web-client"]
+	path = ams-angular-web-client
+	url = https://github.com/archismantripathi/ams-angular-web-client.git
