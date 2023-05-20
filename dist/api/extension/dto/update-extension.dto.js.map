@@ -1,1 +1,1 @@
-{"version":3,"file":"update-extension.dto.js","sourceRoot":"","sources":["../../../../ams-backend/src/api/extension/dto/update-extension.dto.ts"],"names":[],"mappings":";;;AAAA,uDAAmD;AACnD,iEAA4D;AAE5D,MAAa,kBAAmB,SAAQ,IAAA,0BAAW,EAAC,yCAAkB,CAAC;CAAG;AAA1E,gDAA0E"}
+{"version":3,"file":"update-extension.dto.js","sourceRoot":"","sources":["../../../../src/api/extension/dto/update-extension.dto.ts"],"names":[],"mappings":";;;AAAA,uDAAmD;AACnD,iEAA4D;AAE5D,MAAa,kBAAmB,SAAQ,IAAA,0BAAW,EAAC,yCAAkB,CAAC;CAAG;AAA1E,gDAA0E"}

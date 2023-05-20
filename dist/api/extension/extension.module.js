@@ -11,16 +11,17 @@ const common_1 = require("@nestjs/common");
 const extension_service_1 = require("./extension.service");
 const extension_controller_1 = require("./extension.controller");
 const mongoose_1 = require("@nestjs/mongoose");
-const device_model_1 = require("../../models/device.model");
+const extension_repository_1 = require("./extension.repository");
+const extension_model_1 = require("../../models/extension.model");
 let ExtensionModule = class ExtensionModule {
 };
 ExtensionModule = __decorate([
     (0, common_1.Module)({
         imports: [
-            mongoose_1.MongooseModule.forFeature([{ name: 'Device', schema: device_model_1.DeviceSchema }]),
+            mongoose_1.MongooseModule.forFeature([{ name: 'Extension', schema: extension_model_1.ExtensionSchema }]),
         ],
         controllers: [extension_controller_1.ExtensionController],
-        providers: [extension_service_1.ExtensionService]
+        providers: [extension_service_1.ExtensionService, extension_repository_1.ExtensionRepository],
     })
 ], ExtensionModule);
 exports.ExtensionModule = ExtensionModule;

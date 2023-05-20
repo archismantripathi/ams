@@ -1,1 +1,1 @@
-{"version":3,"file":"create-extension.dto.js","sourceRoot":"","sources":["../../../../ams-backend/src/api/extension/dto/create-extension.dto.ts"],"names":[],"mappings":";;;AAAA,MAAa,kBAAkB;CAAG;AAAlC,gDAAkC"}
+{"version":3,"file":"create-extension.dto.js","sourceRoot":"","sources":["../../../../src/api/extension/dto/create-extension.dto.ts"],"names":[],"mappings":";;;AAAA,MAAa,kBAAkB;CAAG;AAAlC,gDAAkC"}
