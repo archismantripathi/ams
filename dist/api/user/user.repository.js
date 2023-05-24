@@ -83,9 +83,7 @@ let UserRepository = class UserRepository {
             if (updateUserDto.password) {
                 user.password = await hasher.update(updateUserDto.password).digest('base64');
             }
-            if (updateUserDto.admin) {
-                user.admin = updateUserDto.admin;
-            }
+            user.admin = updateUserDto.admin;
             user.save();
             throw new common_1.HttpException('User Updated.', common_1.HttpStatus.ACCEPTED);
         }

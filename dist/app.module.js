@@ -11,11 +11,12 @@ const common_1 = require("@nestjs/common");
 const client_module_1 = require("./client/client.module");
 const api_module_1 = require("./api/api.module");
 const auth_module_1 = require("./auth/auth.module");
+const add_ons_module_1 = require("./add-ons/add-ons.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     (0, common_1.Module)({
-        imports: [api_module_1.ApiModule, client_module_1.ClientModule, auth_module_1.AuthModule],
+        imports: [api_module_1.ApiModule, client_module_1.ClientModule, auth_module_1.AuthModule, add_ons_module_1.AddOnsModule],
     })
 ], AppModule);
 exports.AppModule = AppModule;
